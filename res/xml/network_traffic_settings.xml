@@ -46,7 +46,7 @@
         android:summary="@string/network_traffic_show_units_summary"
         android:defaultValue="true" />
 
-    <org.lineageos.settings.preferences.SystemSettingSwitchPreference
+    <com.lineageos.lineageparts.preferences.SystemSettingSwitchPreference
         android:key="network_traffic_hidearrow"
         android:title="@string/network_traffic_hidearrow"
         android:summary="@string/network_traffic_hidearrow_summary"
