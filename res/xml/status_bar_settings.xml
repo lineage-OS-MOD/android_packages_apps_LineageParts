@@ -127,6 +127,13 @@
             lineage:requiresConfig="@*android:bool/config_automatic_brightness_available"
             android:defaultValue="true" />
 
+        <com.lineageos.lineageparts.preferences.SystemSettingSwitchPreference
+            android:key="brightness_slider_qs_unexpanded"
+            android:title="@string/brightness_slider_qs_unexpanded"
+            android:summary="@string/brightness_slider_qs_unexpanded_summary"
+            android:defaultValue="false" />
+
+
         <lineageos.preference.LineageSystemSettingSwitchPreference
             android:key="status_bar_brightness_control"
             android:title="@string/status_bar_toggle_brightness"
